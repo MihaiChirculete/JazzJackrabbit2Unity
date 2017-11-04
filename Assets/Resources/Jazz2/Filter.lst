@@ -1,0 +1,12 @@
+; ---------------------------------------------------------------------------
+; Filter.lst - Jazz Jackrabbit 2 Chat Filter
+;
+; This file contains words that are replaced with dashes ('-') when somebody
+; types them as chat messages in Jazz2. These strings can be substrings,
+; phrases or words.
+;
+; Lines beginning with ; will be ignored
+; ---------------------------------------------------------------------------
+
+; Example: Uncomment the next line to filter out the use of the word 'badword'
+;badword

@@ -1,0 +1,19 @@
+; ---------------------------------------------------------------------------
+; Banlist.lst - Jazz Jackrabbit 2 Ban List
+;
+; This banlist allows you to deny people with certain names or certain IP
+; addresses to enter your game. You can put names (single words) or IP
+; addresses (4 numbers, separater with dots).
+;
+; For names: Only A-Z are used for checking, the other characters are ignored
+;
+; Lines beginning with ; will be ignored
+; ---------------------------------------------------------------------------
+
+; Example: Uncomment the next line to deny access to all users who try to
+;          log into your server with name 'badname'.
+;badname
+
+; Example: Uncomment the next line to deny access to all users who try to
+;          log on from IP 129.0.22.12.
+;129.0.22.12
