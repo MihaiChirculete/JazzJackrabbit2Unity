@@ -832,6 +832,8 @@ public class Tileset
 		return Pixels;
 	}
 
+
+
 	//uint8_t *GetClipMask(const uint32_t &index, const bool &flipped) const;
 	//uint32_t *GetPalette() const;
 }
