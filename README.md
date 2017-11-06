@@ -5,5 +5,9 @@ Port of the Jazz Jackrabbit 2 game by EpicMegaGames written in C# for the Unity 
 (Work in progress)
 
 # What currently works
-    - Loading of tilesets (mostly, for some reason the images generated are purple)
-    - Loading the level data and generating the tiles (mostly)
+    - Loading of tilesets
+    - Loading the level data and generating the tiles (mostly, some tiles are misplaced)
+
+# Screenshots
+	- Dungeon Dilema (screen1.png)
+	- Burnin Biscuits (screen2.png)

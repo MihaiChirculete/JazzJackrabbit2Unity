@@ -158,10 +158,23 @@ public class LevelLoader : MonoBehaviour {
 	            {
 	            	//Debug.Log("paletteColor index: " + (32 * y + x));
 	            	uint pixel = pixels[32*y + x];
-	            	Color32 c = new Color32((byte)(Utils.getByteFromNumber(pixel, 1)),// & 0xFF000000),
-	            		(byte)(Utils.getByteFromNumber(pixel, 2)), // & 0x00FF0000),
-	            		(byte)(Utils.getByteFromNumber(pixel, 3)), // & 0x0000FF00),
-	            		(byte)(Utils.getByteFromNumber(pixel, 4)));// & 0x000000FF));
+	            	
+	            	Color32 c;
+     				
+     				if(System.BitConverter.IsLittleEndian)
+     				{
+     					c.r = (byte)((pixel) & 0xFF);
+     					c.g = (byte)((pixel>>8) & 0xFF);
+     					c.b = (byte)((pixel>>16) & 0xFF);
+     					c.a = (byte)((pixel>>24) & 0xFF);
+     				}
+     				else
+     				{
+     					c.a = (byte)((pixel) & 0xFF);
+     					c.b = (byte)((pixel>>8) & 0xFF);
+     					c.g = (byte)((pixel>>16) & 0xFF);
+     					c.r = (byte)((pixel>>24) & 0xFF);
+     				}
 
 	            	tileTextures[i].SetPixel(32-x, 32-y, c);
 	            }
@@ -187,9 +200,25 @@ public class LevelLoader : MonoBehaviour {
 		for(int i=0; i<256; i++)
 			for(int j=0; j<256; j++)
 			{
-				Color32 c = new Color32((byte)Utils.getByteFromNumber(tilesetObj.TilesetInfo_1_23.PaletteColor[j], 1), (byte)Utils.getByteFromNumber(tilesetObj.TilesetInfo_1_23.PaletteColor[j], 2),
-	            	(byte)Utils.getByteFromNumber(tilesetObj.TilesetInfo_1_23.PaletteColor[j], 3), (byte)Utils.getByteFromNumber(tilesetObj.TilesetInfo_1_23.PaletteColor[j], 4));
+				uint pixel = tilesetObj.TilesetInfo_1_23.PaletteColor[j];
 				
+				Color32 c;
+				
+				if(System.BitConverter.IsLittleEndian)
+				{
+					c.r = (byte)((pixel) & 0xFF);
+     				c.g = (byte)((pixel>>8) & 0xFF);
+     				c.b = (byte)((pixel>>16) & 0xFF);
+     				c.a = (byte)((pixel>>24) & 0xFF);
+     			}
+     			else
+     			{
+     				c.a = (byte)((pixel) & 0xFF);
+     				c.b = (byte)((pixel>>8) & 0xFF);
+     				c.g = (byte)((pixel>>16) & 0xFF);
+     				c.r = (byte)((pixel>>24) & 0xFF);
+     			}
+
 				paletteTexture.SetPixel(i, j, c);
 			}
 
@@ -217,6 +246,7 @@ public class LevelLoader : MonoBehaviour {
 						GameObject tileObj = (GameObject)Instantiate(Resources.Load("Prefabs/Tile/GenericTile"));
 						tileObj.GetComponent<SpriteRenderer>().sprite = Sprite.Create(tileTextures[tile.index], new Rect(0.0f, 0.0f, 32f, 32f), new Vector2(0.5f, 0.5f), 32f);
 						tileObj.transform.position = new Vector3(j, yPos, layer);
+						tileObj.AddComponent<PolygonCollider2D>();
 					}
 
 					yPos--;

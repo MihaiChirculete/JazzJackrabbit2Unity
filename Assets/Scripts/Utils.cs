@@ -106,7 +106,7 @@ public class Utils {
 		if(System.BitConverter.IsLittleEndian)
 		{
 			//Debug.Log("Is little endian");
-		    System.Array.Reverse(bytes);
+			System.Array.Reverse(bytes);
 		}
 
 		int val = 0;

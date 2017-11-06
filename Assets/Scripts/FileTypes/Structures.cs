@@ -787,12 +787,22 @@ public class Tileset
 	public uint[] GetTile(uint index, bool flipped)
 	{
 		byte[] bitmap = { 0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80 };
-		uint CHANNEL_ALPHA;
+		uint CHANNEL_ALPHA, CHANNEL_RED, CHANNEL_GREEN, CHANNEL_BLUE;
 
 		if(System.BitConverter.IsLittleEndian)
+		{
+			CHANNEL_RED = (uint)0x000000FF;
+			CHANNEL_GREEN = (uint)0x0000FF00;
+			CHANNEL_BLUE = (uint)0x00FF0000;
 			CHANNEL_ALPHA = (uint)0xFF000000;
+		}
 		else
+		{
+			CHANNEL_RED = (uint)0xFF000000;
+			CHANNEL_GREEN = (uint)0x00FF0000;
+			CHANNEL_BLUE = (uint)0x0000FF00;
 			CHANNEL_ALPHA = (uint)0x000000FF;
+		}
 
 		if (index >= NumTiles())
 			return null;
@@ -814,7 +824,10 @@ public class Tileset
 
 		for (int i = 0; i < 1024; i++)
 		{
-			Pixels[i] |= ((transparency.TransparencyMask[i / 8] & bitmap[i % 8]) != 0) ? CHANNEL_ALPHA : 0x00000000;
+			Pixels[i] |= ((transparency.TransparencyMask[i / 8] & bitmap[i % 8]) != 0) ? CHANNEL_ALPHA : (uint)0x00000000;
+			//Pixels[i] |= CHANNEL_RED;
+			//Pixels[i] |= CHANNEL_GREEN;
+			//Pixels[i] |= CHANNEL_BLUE;
 		}
 
 		if(flipped)
