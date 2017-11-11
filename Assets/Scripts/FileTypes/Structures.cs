@@ -1234,6 +1234,58 @@ public class Level {
 		}
 		return tile;
 	}
+
+	/*
+	public static J2L_Event GetEvent(J2L_Data2_1_23 Data2_1_23, uint tileXCoord, uint tileYCoord, uint layer3Width)
+	{
+		uint tileCoord = layer3Width * tileYCoord + tileXCoord;
+		if(Data2_1_23.Events.Count > tileCoord)
+			return Data2_1_23.Events[(int)tileCoord];
+		return null;
+	}
+
+	public static J2L_Event GetTileEvent(J2L_Data1_1_23 Data1_1_23, uint tileXCoord, uint tileYCoord, uint layer3Width)
+	{
+		uint tileCoord = layer3Width * tileYCoord + tileXCoord;
+		if(Constants.MAX_TILES_1_23 > tileCoord)
+		{
+			J2L_Event e = new J2L_Event();
+				e.EventID = (byte)((Data1_1_23.TilesetEvents[(int)tileCoord]>>24) & 0xFF);
+			return e;
+		}
+		return null;
+	}
+
+	
+	public static TileCoord GetPlayerStart(J2L_Data1_1_23 Data1_1_23, J2L_Data2_1_23 Data2_1_23, bool Multiplayer)
+	{
+		TileCoord coord = new TileCoord();
+		coord.x = 0;
+		coord.y = 0;
+		for (int i = 0; i < (Data1_1_23.LayerRealWidth[3] * Data1_1_23.LayerHeight[3]); i++)
+		{
+			
+			if (Multiplayer)
+			{
+				if (Data2_1_23.Events[i].EventID == (byte)EventID.MultiplayerLevelStart)
+				{
+					coord.x = (int)(i % Data1_1_23.LayerRealWidth[3]);
+					coord.y = (int)(i / Data1_1_23.LayerRealWidth[3]);
+				}
+			}
+			else
+			{
+				if ((Data2_1_23.Events[i].EventID == (byte)EventID.JazzLevelStart) || (Data2_1_23.Events[i].EventID == (byte)EventID.SpazLevelStart))
+				{
+					coord.x = (int)(i % Data1_1_23.LayerRealWidth[3]);
+					coord.y = (int)(i / Data1_1_23.LayerRealWidth[3]);
+					break;
+				}
+			}
+		}
+		return coord;
+	}
+	*/
 }
 
 public class TILE_Header
