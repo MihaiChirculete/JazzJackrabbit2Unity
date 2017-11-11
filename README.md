@@ -11,3 +11,4 @@ Port of the Jazz Jackrabbit 2 game by EpicMegaGames written in C# for the Unity 
 # Screenshots
 ![Dungeon Dilemma](https://user-images.githubusercontent.com/22798119/32690090-231dafac-c6f9-11e7-908a-387e3718a4c9.png)
 ![Burnin Biscuits](https://user-images.githubusercontent.com/22798119/32690093-28bd08f4-c6f9-11e7-8845-a463b29a1ca4.png)
+![Rabbit Roast](https://user-images.githubusercontent.com/22798119/32690330-bb13e89a-c6fd-11e7-91bb-5cb375694fa2.png)
