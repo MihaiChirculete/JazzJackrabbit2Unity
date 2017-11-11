@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Events\GenericEvent.cs" />
      <Compile Include="Assets\Scripts\FileTypes\Structures.cs" />
      <Compile Include="Assets\Scripts\LEV.cs" />
      <Compile Include="Assets\Scripts\LevelLoader.cs" />
@@ -58,9 +59,15 @@
      <Compile Include="Assets\Scripts\Player\Controller.cs" />
      <Compile Include="Assets\Scripts\Utils.cs" />
      <None Include="Assets\Resources\Jazz2\License.txt" />
-     <None Include="Assets\Resources\Jazz2\Cache\readme.txt" />
+     <None Include="Assets\Resources\Jazz2\UserLevels\Diam001.txt" />
+     <None Include="Assets\Resources\Jazz2\UserLevels\The_Best_Levels.txt" />
+     <None Include="Assets\Resources\Jazz2\UserLevels\wxmasreadme.txt" />
      <None Include="Assets\Resources\Jazz2\ReadMe.txt" />
-     <None Include="Assets\Resources\Jazz2\Tiles\readme.txt" />
+     <None Include="Assets\Resources\Jazz2\UserLevels\mlreadme.txt" />
+     <None Include="Assets\Resources\Jazz2\UserLevels\Peach Beach Readme.txt" />
+     <None Include="Assets\Resources\Jazz2\UserLevels\falkenrace.txt" />
+     <None Include="Assets\Resources\Jazz2\UserLevels\spam003.txt" />
+     <None Include="Assets\Resources\Jazz2\UserLevels\spam201.txt" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>

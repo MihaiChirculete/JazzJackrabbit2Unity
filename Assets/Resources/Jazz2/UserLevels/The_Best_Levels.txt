@@ -1,0 +1,38 @@
+Level Name - File Name - Type of Level - Author - Download URL
+*************************************************************
+
+Under Siegeness ....... undrsieg.j2l -        Battle -          Evil Bill -     http://www.mich.com/~j2c/undrsieg.zip
+
+Silent Slayers ........ silent slayers.j2l -  Battle -          Martin -        http://www.mich.com/~j2c/slayers2.zip
+
+A White Christmas ..... whitechristmas.j2l -  Battle -          RockyRaccoon -  http://www.mich.com/~j2c/wxmas.zip
+ 
+ElectriChaos .......... elechaos.j2l -        Battle -          Onag -          http://www.mich.com/~j2c/elechaos.zip
+
+LabLocked ............. spam003.j2l -         CTF -             Captain Spam -  http://www.mich.com/~j2c/spam003.zip
+ 
+Battle over Carrotus .. bocarrot.j2l -        CTF -             Alpha Wolf -    http://www.mich.com/~j2c/bocarrot.zip
+
+Swingin Jazz .......... Bbswing.j2l -         CTF -             BloodBunny -    http://www.mich.com/~j2c/bbswing.zip
+
+PaSTE's City .......... Phils1.j2l -          CTF -             PaSTE -         http://www.mich.com/~j2c/phils1.zip
+
+Dino Dynamics ......... dinolab1.j2l -        CTF -             Dino -          http://www.mich.com/~j2c/dinolab1.zip
+
+Queen of Board ........ ml_qob.zip -          Single Player -   DethMan -       http://www.mich.com/~j2c/ml_qob.zip
+
+Sting in Your Tail .... ml_sting.j2l -        Single Player -   Evil Bill -     http://www.mich.com/~j2c/ml_sting.zip
+
+70's Fever ............ 70sFev.zip -          Single Player -   Martin -        http://www.mich.com/~j2c/70sFev.zip
+
+Diamond Rabbit ........ Diam001.j2l -         Single Player -   DanX -          http://www.mich.com/~j2c/diam001.zip
+
+Peach Beach ........... peachb.j2l -          Single Player -   Wakeman -       http://www.mich.com/~j2c/peachb.zip
+ 
+Falkens Race .......... Falkenrace.j2l -      Race -            Birdman -       http://www.mich.com/~j2c/falkenrace.zip
+
+Diamond DASH .......... Ddash2.j2l -          Race -            stripe -        http://www.mich.com/~j2c/ddash2.zip
+
+Diamonds in Diamondus . spam201.j2l -         Treasure -        Captain Spam -  http://www.mich.com/~j2c/spam201.zip
+
+D-Scape Xepha ......... Meztrs01.j2l -        Treasure -        Mez -           http://www.mich.com/~j2c/tilezz03.zip

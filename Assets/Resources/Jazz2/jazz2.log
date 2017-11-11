@@ -1,0 +1,33 @@
+LOG: GRADE (Build 98-194W), Executable: D:\Games\Jazz Jackrabbit 2 - The Secret Files\Jazz2.exe
+LOG: Jazz Jackrabbit 2 version 1.24  
+
+WIN: Running Microsoft Windows NT Service Pack 3 version 5.1, Build 2600
+CPU: Intel Unknown processor, type 15 found
+CPU: Processor Vendor ID 'GenuineIntel', Family 15, Model 4, Stepping 1
+CPU: Processor Features BFEBFBFF (FPU, MMX)
+WIN: First time startup, using defaults
+VID: Checking for available video modes
+VID:     DirectDraw v5.03.2600.5512 found
+VID:     Video memory 126452Kb (1Kb Free), AGP memory 56319Kb (56319Kb Free)
+VID:     Direct3D found
+NET: WinSock v2.2 "WinSock 2.0", Status: Running, Host: tomek-8d52fe051
+SND: Galaxy Music System v5.0a
+SND: Detected DirectSound driver
+---- Starting execution: invoke MainProg()
+
+4 macro files found in current directory
+Reading animation library
+time gap = 104
+Loading level 'Easter Bunny' (EASTER1.j2l)
+***gameloop started***
+***gameloop ended after 2208 gameticks
+NetDeInitialize
+total memory 10131328, largest block 10856520
+Normally exiting program
+
+---- Exiting program
+SND: Closing sound system
+NET: Closing network system
+WIN: Writing registry
+VID: Closing display (DirectDraw)
+WIN: Closing window

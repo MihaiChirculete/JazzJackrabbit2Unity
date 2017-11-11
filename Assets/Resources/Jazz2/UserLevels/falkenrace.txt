@@ -1,0 +1,25 @@
+Title 		: Falkenrace
+Filename	: Falkenrace.j2l
+Contents 	: A Jazz2 Race level.
+Author 		: Birdman Andy B.
+Base		: New level from scratch.
+Tileset		: Labrat 1 Night.
+Min players	: Two - designed and tested as a two player race 
+		  level.
+Skill levels	: N/a.
+
+Detail		: This is a mad race through one of in Barin Von
+		  "carrott" Falkenstein's lab experiments. 
+
+The Story	: This is just a race level so hop to it and hare
+		  off round Falkenstein's lab.
+
+Also by the author : Falkenstein's castle - Falken.zip
+
+
+About the author: Christian, jazz 2 fan, writes card games etc. 
+		  lives in England.
+
+Email		: andy_b@purge.demon.co.uk
+Website		: http://www.purge.demon.co.uk
+   - Jazz page	: http://www.purge.demon.co.uk/games/jazz.html

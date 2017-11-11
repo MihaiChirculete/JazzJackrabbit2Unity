@@ -1,0 +1,46 @@
+HI!
+
+Here is yet another tileset for Jazz Jackrabbit 2. Quite different from the
+original idea, but somehow it worked out. This time there are two versions,
+since some might prefer a less psychedelic choice of colours.
+There are also two Treasure Hunt levels (the same, just using both colour 
+variations) I added to try it out.
+
+A few tips:
+
+- Use those big spheres (or whatever) with care, since you might get stuck
+  in certain arrangements. I added a mask that partly prevents that, but
+  still it is not a 100% solution. Please direct further complaints
+  to Epic (...)
+- There are enough tiles for the big bubbles (or whatever) to have one solid
+  and one transparent set.
+- You have to make use of Layers 3 and 4 to get some nice overlay-effects
+  and for the sucker tube entrances.
+- Take a look at the demolevel(s) (meztrs01/02). They provide the
+  animations, examples for destructable scenery and show how to have solid
+  and transparent orbs (or whatever).
+- Finally, remember those who play in lower resolutions (like 320x400)!!!
+
+
+Filename: mez03a.j2t
+Length:   43712 Bytes
+Size:     320x1664 pix -> 520 tiles (!)
+
+Filename: meztrs01.j2l
+Length:   12934 Bytes
+Size:     192x96 (Layer 4)
+
+Filename: mez03b.j2t
+Length:   43711 Bytes
+Size:     320x1664 pix -> 520 tiles
+
+Filename: meztrs02.j2l
+Length:   12934 Bytes
+Size:     192x96 (Layer 4)
+
+If you have comments or suggestions, try to let me know.
+
+ENJOY!
+
+
+MEZ!

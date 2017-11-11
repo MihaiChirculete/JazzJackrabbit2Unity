@@ -1,0 +1,59 @@
+---------------------
+
+Level: Diamonds in Diamondus
+Author: Captain Spam (Nicholas Killewald)
+Size: 130 x 39 (Layer 4)
+Level type: Treasure Hunt
+Stuff: It's good (RockyRaccoon)
+Tileset: Diamondus 2 (Official Epic tileset)
+First hosted: August 1, 1998
+My reccomended number of players: 4
+
+---------------------
+
+(Written September 17, 1998)
+
+I wanted to be the first one on Jazz 2 City that had a Treasure Hunt level.  Man, was I dismayed
+when I saw the other levels there first.  It didn't stop me, though.  I saw the cool tiles
+avaliable in Diamondus, and I decided to take this hunt in the night.  Diamonds in Diamondus
+was born.
+
+Using the same general formula I used in the Carrot Shot, I pieced together a new treasure
+hunt level.  The only problem was that there weren't many other levels to compare this one
+to.  I was working blind, and, you know, that's a good thing at times.
+
+My first draft called for WAY too many gems.  I quickly realized that making a total of about
+150 gems in a 100 gems-to-a-win round works great.  You're kinda forced to shoot people to
+get the gems.  Makes it more challenging.  If everyone could get 100 gems, the games would be
+WAY too quick and there'd be no use to shooting each other.  And what's a good round of Jazz 2
+without some good old fashioned shooting, huh?
+
+The exit's kinda hard to find unless you're looking.  It's at the bottom, about dead center.
+You'll find a text string when you've found it and you don't have enough gems.  You'll also
+find a couple Exit signs flanking the exit.
+
+And the secret with my trademark text?  Check every corner, nook, and cranny.  Well, actually,
+just every corner.  You'll find it.
+
+-Captain Spam
+
+---------------------
+
+Trivia:
+
+I put a few Gem Buttstomps in there.
+
+Some parts of the "Cavern" areas have bustable backgrounds.  Very fun.
+
+I didn't put any fake trivia in this readme.
+
+I counted out an average of 160 gems when I tested.  Granted, Gem Buttstomps give a random
+amount each time, but it's about 160.
+
+This was the first level where I tried some real QUALITY back/foregrounds.  Carrot Shot has
+some, too, but that was mainly thrown in.  Check the cool trees on the bottom.
+
+---------------------
+
+"Stuff is good." - RockyRaccoon
+It's been copied, but HE SAID IT FIRST, DANGIT! (In defense of my fellow Worms2 fan)

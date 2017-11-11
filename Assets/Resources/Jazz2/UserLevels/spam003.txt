@@ -1,0 +1,64 @@
+---------------------
+
+Level: LabLocked
+Author: Captain Spam (Nicholas Killewald)
+Size: 104 x 75 (Layer 4)
+Cost of a six-pack of Barq's Root Beer in glass bottles: Unknown
+Level type: Capture the Flag
+Tileset: Labratory 1 (Official Epic Tileset)
+First hosted: January 18, 1999
+My reccomended number of players: 6
+
+---------------------
+
+Another CTF?  Why, certainly!  Back in the lab, even?  Why not?
+
+That ended up being my thoughts on this level.  After NUCS, I didn't have much of an urge to make
+more Party Mode levels until I made some Single-Player madness.  Unfortunately, I gave up on
+my first Single-Player level pretty quick (Plotless Pursuit is still in the back of my mind...
+I might pick it up later), and started on, you guessed it, another Party Mode level.  I
+realized just how much fun it was to host Spamtasia.
+
+This, like JYTL, was going to be a battle.  I even made it small so it would make a good battle.
+But, it seemed too... well... unfulfilling.  So, I chucked in a couple bases, and there it was.
+And it STILL seems pretty big, even though it's smaller than either of my other CTFs.  The
+level's relative size, however, makes it quite playable for only 4 players.  6 to 8 is kinda the
+limit, then it gets too crowded.
+
+I love the lab's tileset.  I love the lab's music.  So, I re-entered the lab for this shot.
+
+I decided to not have as many hooks sitting around this one as in JYTL.  Someone told me that all
+the hooks I plopped in there kinda made it hard to move around quickly.  I agreed... now, the
+only hooks in there are in case I stupidly made a jump too high... heh... 
+
+Stay tuned... Coming next is a race level...
+
+-Captain Spam
+
+---------------------
+
+Trivia:
+
+Ah, you know you want to do it... cheat and read the sign above the second coin warp target.
+
+See the cucumber/eggplant combination around the coin warp?  That's another trademark of mine,
+other than my signature text.
+
+When this level was originally hosted, my computer kept crashing.  Resetting, in fact.  Darndest
+thing I ever seen...
+
+Barq's Rootbeer has caffeine.  Lots of it, in fact.
+
+What level of mine would be complete without the bouncy bullet powerup?  It's in the dark room,
+around (62,43) is the breakable wall.
+
+The ammo room?  It's also in the dark room.  I'm not telling, though... heh...
+
+This was hosted with some members of the JMMB as a server test (See trivia point 3).  CTFs are
+STILL fun!
+
+The German word for "Cookie" is "Kekse".
+
+---------------------
+
+"I frankly don't care much for today's music." -Captain Spam

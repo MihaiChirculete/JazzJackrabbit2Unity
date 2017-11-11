@@ -1,0 +1,72 @@
+Filename(s):    bbswing.j2l bbswinga.j2l
+Title:          Swingin' Jazz
+Tileset:        Jungle 2
+Dimensions:     96x50
+Music:          medivo2.j2b
+Type:           Capture the Flag
+
+Author:         BloodBunny/Ninjin
+Email:          Edward Kmett <harmless@bloodshed.com>
+URL:            http://www.bloodshed.com/~harmless
+ICQ:            1985432
+
+Comments:
+
+I put this level together to address some of my frustrations with the
+masks in the jungle tileset. Most of the sucker tube/spring board combos
+would not be possible without using some of the dirty tricks hidden behind
+the foreground layer. Rather, they would be possible but you would see
+jazz's arms or ears through the sides or top of the trunk like in the in-game
+levels using these tilesets.
+
+I had initially intended to use swinging vines in this level, hence the
+title, but this was a no-go for multiplayer since it appears that all of
+the independantly mobile events dont work in multiplayer. Which is
+understandable given the difficulties of syncronizing such behavior over the
+network especially in the face of high latency where trying to make things
+look right for even a nominally lagged player would be a programming juggling
+act thats probably not worth the effort for event objects which are
+inherently slow to navigate anyways and thus not very friendly to a player
+running his tail off with the flag.
+
+Also notable is that tiles with 'bad' masks which would cause motion to catch
+are shunted to the foreground where possible or made one-way. In
+the former case you just dont collide with them, in the latter you can move
+upward through them even if they dont mesh quite right with the masks around
+them. Examples, respectively are the bottoms of the end-of-platform on a 45
+degree downslope tiles which otherwise catch your feet and the edges of the
+water basin areas which otherwise if you press in close, will not let you
+jump out.
+
+There are two versions of this map included in this package because of
+a relatively obscure cheat which works only when using the Flying Carrot
+or Airboard in a level intended for CTF. If one enters the 'jjnowall' code
+in Single Player mode, it affects you later in Party Mode. In other words,
+once you touch an Airboard, you can fly though walls. This would not be a
+real problem if in this state you responded to fly-off events or if the code
+just didnt stick when you started the next level or joined a server to begin
+with, but I can 
+
+The 'jjnowall' cheat becomes a problem because if a person in this state
+touches the flag of the opposite team, the flag vanishes. This effectively
+requires the server to restart, is just as annoying as the 1.21 flag bug,
+and still happens on a 1.22 server. People using this cheat are annoying
+on Battle maps, but on CTF they render the server unusable the moment they
+touch the flag while flying.
+
+'bbswing.j2l' is the version of the map without the Airboards, safe for
+leaving up online.
+
+'bbswinga.j2l' is the version of the map WITH Airboards, because I feel
+they add enough to the level that if you trust the people you are playing
+with or are using 1.22 or above and can kick/ban people who come on
+'jjnowall'ed that its worth playing. However, because of the Airboard
+problem, I would not recommend leaving this version of the board in the
+playing loop on a dedicated server. This version also might be worth having
+around if they fix the issue with Airboards, which technically isnt a bug
+because if you mark a map for CTF you arent SUPPOSED to be able to use
+Airboards or Flying Carrots in the first place... but still. =)
+
+Also, look at the sky in 16 bit color if you get a chance. ;)
+
+-BB/N
