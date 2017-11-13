@@ -10,10 +10,10 @@ using Ionic.Zlib;
 public class LevelLoader : MonoBehaviour {
 	
 	// level data
-	Level lvl = new Level();
+	J2L.Level lvl = new J2L.Level();
 
 	// tileset data
-	Tileset tilesetObj = new Tileset();
+	J2T.Tileset tilesetObj = new J2T.Tileset();
 
 	byte[] TileFrame;
 	
@@ -59,6 +59,32 @@ public class LevelLoader : MonoBehaviour {
 		Debug.Log("Tileset UData1: " + tilesetObj.header.UData1);
 		Debug.Log("Tileset name: " + System.Text.Encoding.UTF8.GetString(tilesetObj.header.TilesetName).TrimEnd('\0'));
 
+		/*
+		if(lvl.IsTileWidthChecked(0))
+			Debug.Log("Tile width set (layer0)");
+
+		if(lvl.IsTileWidthChecked(1))
+			Debug.Log("Tile width set (layer1)");
+
+		if(lvl.IsTileWidthChecked(2))
+			Debug.Log("Tile width set (layer2)");
+
+		if(lvl.IsTileWidthChecked(3))
+			Debug.Log("Tile width set (layer3)");
+
+		if(lvl.IsTileWidthChecked(4))
+			Debug.Log("Tile width set (layer4)");
+
+		if(lvl.IsTileWidthChecked(5))
+			Debug.Log("Tile width set (layer5)");
+
+		if(lvl.IsTileWidthChecked(6))
+			Debug.Log("Tile width set (layer6)");
+
+		if(lvl.IsTileWidthChecked(7))
+			Debug.Log("Tile width set (layer7)");
+		*/
+
 		string tileset = System.Text.Encoding.UTF8.GetString(lvl.GetTileset()).TrimEnd('\0').ToLower().Replace(".j2t", "");	
 
 		GetComponent<AudioSource>().clip = (AudioClip)Resources.Load("Music/" + System.Text.Encoding.UTF8.GetString(lvl.GetMusicFile()).TrimEnd('\0').ToLower());
@@ -98,7 +124,7 @@ public class LevelLoader : MonoBehaviour {
 
 		for(int i=0; i<tilesetObj.TilesetInfo_1_23.TileCount; i++)
 		{	
-			Debug.Log("Current tile texture " + i);
+			// Debug.Log("Current tile texture " + i);
 			uint[] pixels = tilesetObj.GetTile((uint)i, true);
 
 			if(pixels.Length == 1024)
@@ -146,7 +172,7 @@ public class LevelLoader : MonoBehaviour {
 	{
 		for(uint i=0; i<tilesetObj.TilesetInfo_1_23.TileCount; i++)
 		{
-			J2T_TileClip tileClip = tilesetObj.GetTileClip(i);
+			J2T.J2T_TileClip tileClip = tilesetObj.GetTileClip(i);
 
 			int currentByte = 0, row = 0;
 			while(currentByte < 128)
@@ -215,7 +241,7 @@ public class LevelLoader : MonoBehaviour {
 				{
 					for(uint j=0; j<lvl.GetLayerWidth(layer); j++)
 					{
-						J2L_Tile tile = lvl.GetTile(layer, j, i, 0f);
+						J2L.J2L_Tile tile = lvl.GetTile(layer, j, i, 0f);
 
 						GameObject tileObj = (GameObject)Instantiate(Resources.Load("Prefabs/Tile/GenericTile"));
 						tileObj.GetComponent<SpriteRenderer>().sprite = Sprite.Create(tileTextures[tile.index], new Rect(0.0f, 0.0f, 32f, 32f), new Vector2(0.5f, 0.5f), 32f);

@@ -51,6 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\DataStructures\J2A.cs" />
+     <Compile Include="Assets\Scripts\DataStructures\J2E.cs" />
+     <Compile Include="Assets\Scripts\DataStructures\J2L.cs" />
+     <Compile Include="Assets\Scripts\DataStructures\J2T.cs" />
      <Compile Include="Assets\Scripts\DataStructures\Structures.cs" />
      <Compile Include="Assets\Scripts\Events\GenericEvent.cs" />
      <Compile Include="Assets\Scripts\LevelLoader.cs" />
